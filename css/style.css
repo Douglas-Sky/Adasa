@@ -142,8 +142,9 @@ body {
     text-decoration: none;
     padding: 5px 25px;
     /* display: block; */
-    color: rgba(116, 44, 44, 0.993);
+    color: white;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .ul-list {
@@ -172,16 +173,17 @@ body {
 
 .btn-contact {
     background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #b82b6a);
-    background-image: -moz-linear-gradient(top, #3498db, #b82b6a);
-    background-image: -ms-linear-gradient(top, #3498db, #b82b6a);
-    background-image: -o-linear-gradient(top, #3498db, #b82b6a);
-    background-image: linear-gradient(to bottom, #3498db, #b82b6a);
+    background-image: -webkit-linear-gradient(top,goldenrod, #ebe70f);
+    background-image: -moz-linear-gradient(top, goldenrod, goldenrod);
+    background-image: -ms-linear-gradient(top,goldenrod white,goldenrod);
+    background-image: -o-linear-gradient(top, goldenrod, black);
+    background-image: linear-gradient(to bottom, white,goldenrod);
     -webkit-border-radius: 28;
     -moz-border-radius: 20;
     border-radius: 20px;
     font-family: Courier New;
-    color: #ffffff;
+    color: black;
+    font-weight: bold;
     font-size: 15px;
     padding: 5px;
     text-decoration: none;
